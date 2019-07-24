@@ -1,0 +1,44 @@
+nav, footer {
+  background-color: grey;
+  height: 30px;
+}
+
+section {
+  padding: 200px;
+}
+
+.a {
+  background-color: #F13131;
+  display:flex;
+
+}
+
+.b {
+  background-color: #F19731;
+  width:525px;
+}
+
+.c {
+  background-color: #F1EE31;
+  width:100px;
+
+}
+
+.bea{
+  display:flex;
+  justify:content:flex-end;
+}
+
+@media screen and (max-width: 985px){
+  .bea{
+    display:flex;
+    justify-content:flex-end;
+  }
+}
+
+@media screen and (max-width:600px){
+  .bea{
+    display:flex;
+    flex-direction:column;
+  }
+}
